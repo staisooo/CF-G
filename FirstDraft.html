@@ -29,7 +29,8 @@
       <table class="table2">
         <thead>
           <tr>
-            <th colspan="2"><h1>Pet Adoption Centre 🏠</h1></th>
+            <h1>Pet Adoption Centre 🏠</h1>
+            <h2> We are all about taking care of our furry friends and giving them a caring home.</h2>
           </tr>
         </thead>
         <tbody>
@@ -104,8 +105,49 @@
 
     <div id="volunteer">
       <center><h2>Become a Volunteer!</h2>
-      <p>Tells people how they can help the Adoption centre by volunteering</p>
+      <p>Love animals and want to help? We are always looking for volunteers to help us in the shelters and in fundraising activities.</p>
+      <p> If you'd like to hear more please fill out the form below.</p>
       </center>
+      <form action="/practice.html" method="POST">
+        <center>Full Name: <input type="text" name="full name">
+          <br>
+          <br>
+          <label for="age"> Age range:</label>
+          <select id="age" name"age">
+            <option value="-18"> Under 18 </option>
+            <option value="19-30"> 19 - 30</option>
+            <option value="31-50"> 31 - 50 </option>
+            <option value="50-69"> 50 - 69 </option>
+            <option value="70+"> Over 60 </option>
+          </select>
+          <br>
+          <br>
+          <label for=availability> Please tick the dates you're able to volunteer: </label>
+          <br>Monday
+          <input id="availability" name="availability" type="checkbox" value="monday">
+          Tuesday
+          <input id="availability" name="availability" type="checkbox" value="monday">
+          Wednesday
+          <input id="availability" name="availability" type="checkbox" value="monday">
+          Thursday
+          <input id="availability" name="availability" type="checkbox" value="monday">
+          Friday
+          <input id="availability" name="availability" type="checkbox" value="monday">
+          Saturday
+          <input id="availability" name="availability" type="checkbox" value="monday">
+          Sunday
+          <input id="availability" name="availability" type="checkbox" value="monday">
+          <br>
+          <br>
+          <label for="comments"> Any comments? </label>
+          <br>
+          <textarea id="comments" name="comments" rows="10" cols="50"></textarea>
+          <br>
+          <input type="submit" value="Send">
+
+      </center>
+    </form>
+
     </div>
 
   <br>
