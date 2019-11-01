@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Pet Adoption Centre</title>
+    <link href="FirstDraft.css" type="text/css" rel="stylesheet">
+    <!-- The CSS file will be uploaded but I have to go over CSS first before putting some code 25/10 -->
+  </head>
+<body>
+  <div>
+    <center><table class="table1">
+      <thead>
+        <tr> <!-- You can click on these and it will go directly to the designated heading -->
+          <td><a href="#contact"><h3>Contact Details</h3></td>
+          <td> </td>
+          <td><a href="#about"><h3>Meet the Team</h3></td>
+          <td> </td>
+          <td><a href="#faq"><h3>FAQ</h3></td>
+          <td> </td>
+          <td><a href="#volunteer"><h3>Volunteer With Us</h3></td>
+          <td></td>
+        </tr>
+      </thead>
+    </table></center>
+  </div>
+<hr>
+  <center>
+    <div class="container">
+      <table class="table2">
+        <thead>
+          <tr>
+            <h1>Pet Adoption Centre 🏠</h1>
+            <h2> We are all about taking care of our furry friends and giving them a caring home.</h2>
+          </tr>
+        </thead>
+        <tbody>
+          <div class="row">
+            <div class="col-sm-4>"
+          <tr>
+            <td class="left"><img src="https://dyl62eh9y96rk.cloudfront.net/wp-content/uploads/2017/03/16151857/MG_6671-1024x686.jpg" width="500" height="320"></td>
+            <td><h3>Age:<br>Sex:<br>Suitability:<br>Size:</h3></td>
+          </div>
+          </tr>
+          <div class="col-sm-4>"
+          <tr>
+            <td class="left"><img src="https://media.mnn.com/assets/images/2019/09/happy_dog_shelter.jpg.653x0_q80_crop-smart.jpg" width="500" height="320"></td>
+            <td><h3>Age:<br>Sex:<br>Suitability:<br>Size:</h3></td>
+          </div>
+          </tr>
+          <div class="col-sm-4>"
+          <tr>
+            <td class="left"><h3><img src="https://media.mnn.com/assets/images/2017/10/puppy_animal_shelter.jpg.653x0_q80_crop-smart.jpg" width="500" height="320"></h3></td>
+            <td><h3>Age:<br>Sex:<br>Suitability:<br>Size:</h3></td>
+          </div>
+        </div>
+          </tr>
+          <tr>
+            <td class="left"><h3>photo</h3></td>
+            <td><h3>Age:<br>Sex:<br>Suitability:<br>Size:</h3></td>
+          </tr>
+          <tr>
+            <td class="left"><h3>photo</h3></td>
+            <td><h3>Age:<br>Sex:<br>Suitability:<br>Size:</h3></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  <br>
+  <!-- I just dunno how to change the thumbnail of the video but other than that it's cute and good to go -->
+    <div>
+      <h2>Video of the Day!</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/WWi1lSRKhIw"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>Video of a Koala joey haning off a dog
+        </iframe>
+    </div>
+  </center>
+    <hr>
+  <!-- I just put these 4 headings and divided them using the div tags.
+  if you want to add another heading or change one, you can easily do so. -->
+    <div id="contact">
+      <center><h2>Contact Details</h2>
+      <p>email, phone, social media stuff of the centre</p> <!-- We can just add on stuff here later on -->
+      <span><a target="_blank" href="facebook.com"><img src="http://iconbug.com/data/46/256/e5da8e60ffe95bca3aa593711b88b6f3.png"
+        height="80" width="80"></a></span>
+      <span><a target="_blank" href="instagram.com"><img src="https://o.remove.bg/downloads/ccf7cc19-1a56-40df-ac7a-06e76b606112/63-636145_instagram-png-download-circle-transparent-background-instagram-icon-removebg-preview.png"
+          height="80" width="80"></a></span>
+      <span><a target="_blank" href="twitter.com"><img src="https://seeklogo.com/images/T/twitter-icon-circle-blue-logo-94339974C6-seeklogo.com.png"
+            height="80" width="80"></a></span>
+      <span><a target="_blank" href="gmail.com"><img src="https://cdn4.iconfinder.com/data/icons/happily-colored-snlogo/512/gmail-email-mail-logo-circle-material.png"
+              height="80" width="80"></a></span>
+      </center>
+    </div><br>
+
+    <div id="about">
+      <center><h2>Meet the Website Developers CF:G</h2><span><img src="cfglogo.png" height="200" width="200"></span>
+      <p>Our details and background etc. (+Our logo)</p>
+      </center>
+    </div><br>
+
+    <div id="faq">
+      <center><h2>Frequently Asked Questions</h2>
+      <p>How to adopt, to contact etc</p>
+      </center>
+    </div><br>
+
+    <div id="volunteer">
+      <center><h2>Become a Volunteer!</h2>
+      <p>Love animals and want to help? We are always looking for volunteers to help us in the shelters and in fundraising activities.</p>
+      <p> If you'd like to hear more please fill out the form below.</p>
+      </center>
+      <form action="/practice.html" method="POST">
+        <center>Full Name: <input type="text" name="full name">
+          <br>
+          <br>
+          <label for="age"> Age range:</label>
+          <select id="age" name"age">
+            <option value="-18"> Under 18 </option>
+            <option value="19-30"> 19 - 30</option>
+            <option value="31-50"> 31 - 50 </option>
+            <option value="50-69"> 50 - 69 </option>
+            <option value="70+"> Over 60 </option>
+          </select>
+          <br>
+          <br>
+          <label for=availability> Please tick the dates you're able to volunteer: </label>
+          <br>Monday
+          <input id="availability" name="availability" type="checkbox" value="monday">
+          Tuesday
+          <input id="availability" name="availability" type="checkbox" value="monday">
+          Wednesday
+          <input id="availability" name="availability" type="checkbox" value="monday">
+          Thursday
+          <input id="availability" name="availability" type="checkbox" value="monday">
+          Friday
+          <input id="availability" name="availability" type="checkbox" value="monday">
+          Saturday
+          <input id="availability" name="availability" type="checkbox" value="monday">
+          Sunday
+          <input id="availability" name="availability" type="checkbox" value="monday">
+          <br>
+          <br>
+          <label for="comments"> Any comments? </label>
+          <br>
+          <textarea id="comments" name="comments" rows="10" cols="50"></textarea>
+          <br>
+          <input type="submit" value="Send">
+
+      </center>
+    </form>
+
+    </div>
+
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+    <footer>
+      <h3>Many thanks to &nbsp; </h3>
+      <span><img class="moveimage" src="https://images.typeform.com/images/y3Vck9DVMJGB/image/default" height="45" width="190"></span><span><h3>&nbsp; and &nbsp;</h3></span>
+      <span><img class="moveimage" src="https://ci4.googleusercontent.com/proxy/9tXUYntdnZ644ynlbFMOjXYOLM1WTDnZ12c9JAHS8wf_5dZUFZWw6w5x5x2DL00uKcWkR6aavF_yS9bQ2mK2H5GdJyvVoN68GzMuxzlbFHVkNPFA8Oz0nbQAxK_Vbtec9bxo90_UWubC-lPckYUbIRGzgwwOm80bm8E=s0-d-e1-ft#https://gallery.mailchimp.com/308d5b77d9778f81c7b8c8f26/images/30ef5167-8fca-46db-8c77-ec78c8e8e675.png"
+        height="70" width="170"></span>
+    </footer>
+</body>
+</html>
