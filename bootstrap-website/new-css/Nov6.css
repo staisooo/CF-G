@@ -1,0 +1,96 @@
+.btn-success {
+  color: white;
+  background-color: green;
+  border-color: #4cae4c;
+}
+
+.btn-twitter {
+  background: #00acee;
+  border-color: #009ad5;
+}
+
+.btn-facebook {
+  background: #4868ac;
+  border-color: #314776;
+}
+
+.btn-pinterest {
+  background: #b62f26;
+  border-color: #b62f26;
+}
+
+#social-buttons button {
+  color: white;
+}
+body {
+  background-color: #97CAEF;
+  font-family: Rubik, Calibri;
+  font-size: 20px;
+}
+
+hr {
+  display: block; height: 2px;
+  border: 0; border-top: 2px solid pink;
+  margin: 1em 0; padding: 0; }
+
+th {
+    font-family: fantasy;
+}
+
+table.table2 td, tr {    border: 2px solid pink;
+  white-space: wrap;
+  padding: 5px 10px;
+}
+
+iframe{
+  border: 4px solid pink;
+}
+
+.navbar {
+  height: 50px;
+  border-bottom: 100px;
+  padding-bottom: 50px;
+  background: #C5CBE3;
+}
+
+footer h3 {
+  display: inline-block;
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+.moveimage
+{
+    position: relative;
+    bottom: 4px;
+}
+
+h2 {
+  font-weight: bolder;
+}
+
+#volunteer {
+  background: #FFA934;
+}
+
+.adoptme {
+  background: ;
+  border-color: ;
+}
+
+.table2 {
+  border-color: pink;
+  border-radius: 20px;
+}
+
+.mission {
+  background: rgba(255, 200, 284, 0.7); /* not sure abt this colour...lol */
+}
+
+.jumbotronn {
+  font-size: 300%;
+}
+
+li a:hover {
+  background-color: #111;
+}
