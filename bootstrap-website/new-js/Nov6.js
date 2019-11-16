@@ -36,3 +36,10 @@ function topFunction() {
   document.body.scrollTop = 0; // For Safari
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
+
+// $(document).ready(function () {
+//   $("li.a.scrollLink").click(function (event) {
+//       event.preventDefault();
+//       $("html, body").animate({ scrollTop: $($(this).attr("href")).offset().top }, 500);
+//   });
+// });
